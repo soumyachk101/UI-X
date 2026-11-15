@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "badge",
+  "type": "registry:ui",
+  "title": "Badge",
+  "description": "Status badge with multiple variants.",
+  "version": "0.1.0",
+  "dependencies": ["class-variance-authority"],
+  "registryDependencies": [],
+  "files": [{ "path": "components/ui/badge.tsx", "type": "registry:ui" }],
+  "tags": ["display", "status"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

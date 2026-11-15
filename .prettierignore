@@ -1,0 +1,16 @@
+node_modules
+dist
+.next
+out
+.turbo
+coverage
+*.log
+.env.local
+.env.*.local
+.DS_Store
+*.tsbuildinfo
+apps/docs/.next
+apps/playground/.next
+registry/**/*.tsx
+registry/**/*.ts
+registry/**/*.json

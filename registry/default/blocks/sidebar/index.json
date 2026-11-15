@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "sidebar",
+  "type": "registry:block",
+  "title": "Sidebar",
+  "description": "Dashboard sidebar with logo, navigation items, and user section.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["utils"],
+  "files": [
+    { "path": "blocks/sidebar/sidebar.tsx", "type": "registry:block" },
+    { "path": "blocks/sidebar/sidebar-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["dashboard", "navigation", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

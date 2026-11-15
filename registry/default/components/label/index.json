@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "label",
+  "type": "registry:ui",
+  "title": "Label",
+  "description": "Accessible label component for form inputs.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-label"],
+  "registryDependencies": [],
+  "files": [{ "path": "components/ui/label.tsx", "type": "registry:ui" }],
+  "tags": ["form", "foundation"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

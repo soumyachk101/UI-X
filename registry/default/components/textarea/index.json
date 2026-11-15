@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "textarea",
+  "type": "registry:ui",
+  "title": "Textarea",
+  "description": "Multi-line text input component.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [{ "path": "components/ui/textarea.tsx", "type": "registry:ui" }],
+  "tags": ["form", "foundation"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

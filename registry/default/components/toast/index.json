@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "toast",
+  "type": "registry:ui",
+  "title": "Toast",
+  "description": "Simple toast notification with provider and hook pattern.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/toast.tsx", "type": "registry:ui" },
+    { "path": "components/ui/use-toast.ts", "type": "registry:ui" }
+  ],
+  "tags": ["feedback"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

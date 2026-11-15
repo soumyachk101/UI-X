@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "switch",
+  "type": "registry:ui",
+  "title": "Switch",
+  "description": "Toggle switch with keyboard support.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-switch"],
+  "registryDependencies": [],
+  "files": [{ "path": "components/ui/switch.tsx", "type": "registry:ui" }],
+  "tags": ["form", "interactive"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

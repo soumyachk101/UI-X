@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "hero",
+  "type": "registry:block",
+  "title": "Hero",
+  "description": "Marketing hero section with headline, subheadline, and CTA buttons.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["button"],
+  "files": [
+    { "path": "blocks/hero/hero.tsx", "type": "registry:block" },
+    { "path": "blocks/hero/hero-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["marketing", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

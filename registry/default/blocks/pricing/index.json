@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "pricing",
+  "type": "registry:block",
+  "title": "Pricing",
+  "description": "Three-tier pricing cards with feature lists and CTA buttons.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["button", "badge"],
+  "files": [
+    { "path": "blocks/pricing/pricing.tsx", "type": "registry:block" },
+    { "path": "blocks/pricing/pricing-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["marketing", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

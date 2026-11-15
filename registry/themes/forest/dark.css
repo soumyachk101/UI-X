@@ -1,0 +1,21 @@
+@layer base {
+  .dark {
+    --background: 150 30% 8%;
+    --foreground: 150 20% 95%;
+    --card: 150 30% 10%;
+    --card-foreground: 150 20% 95%;
+    --primary: 150 50% 30%;
+    --primary-foreground: 150 20% 98%;
+    --secondary: 150 28% 16%;
+    --secondary-foreground: 150 20% 95%;
+    --muted: 150 28% 14%;
+    --muted-foreground: 150 25% 58%;
+    --accent: 150 28% 16%;
+    --accent-foreground: 150 20% 95%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 150 28% 16%;
+    --input: 150 28% 16%;
+    --ring: 150 50% 38%;
+  }
+}

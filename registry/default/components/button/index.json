@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "button",
+  "type": "registry:ui",
+  "title": "Button",
+  "description": "Accessible button component with multiple variants and sizes.",
+  "version": "0.1.0",
+  "dependencies": [
+    "class-variance-authority",
+    "@radix-ui/react-slot"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [
+    {
+      "path": "components/ui/button.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "tags": ["form", "interactive", "foundation"],
+  "license": "MIT",
+  "meta": {
+    "rsc": true,
+    "tsx": true,
+    "tailwind": true,
+    "cssVars": true,
+    "requires": ["tailwind-merge", "clsx"]
+  }
+}

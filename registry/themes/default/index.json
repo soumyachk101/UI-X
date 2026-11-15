@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "description": "UI-X default design theme.",
+  "light": "themes/default/light.css",
+  "dark": "themes/default/dark.css",
+  "radius": "0.75rem",
+  "fontSans": ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+  "fontMono": ["JetBrains Mono", "ui-monospace", "monospace"]
+}

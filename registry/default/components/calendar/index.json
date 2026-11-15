@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "calendar",
+  "type": "registry:ui",
+  "title": "Calendar",
+  "description": "Calendar grid with month navigation using a popover.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-popover", "lucide-react"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/calendar.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["form", "interactive"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+}

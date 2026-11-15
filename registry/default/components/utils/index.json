@@ -1,0 +1,20 @@
+{
+  "name": "utils",
+  "type": "registry:lib",
+  "description": "Shared utility functions including cn() for className merging.",
+  "version": "0.1.0",
+  "dependencies": ["clsx", "tailwind-merge"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "lib/utils.ts", "type": "registry:lib" }
+  ],
+  "tags": ["utility"],
+  "license": "MIT",
+  "meta": {
+    "rsc": true,
+    "tsx": true,
+    "tailwind": true,
+    "cssVars": false,
+    "requires": []
+  }
+}

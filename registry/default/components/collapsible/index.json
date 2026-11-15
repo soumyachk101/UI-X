@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "collapsible",
+  "type": "registry:ui",
+  "title": "Collapsible",
+  "description": "Collapsible content section with trigger and animation.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-collapsible"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/collapsible.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["layout", "interactive"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

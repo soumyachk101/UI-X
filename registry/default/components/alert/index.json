@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "alert",
+  "type": "registry:ui",
+  "title": "Alert",
+  "description": "Display alert messages with icon, title, and description.",
+  "version": "0.1.0",
+  "dependencies": ["class-variance-authority"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/alert.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["feedback", "foundation"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

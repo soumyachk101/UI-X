@@ -1,0 +1,9 @@
+{
+  "name": "ocean",
+  "description": "Calm ocean-inspired blue tones.",
+  "light": "themes/ocean/light.css",
+  "dark": "themes/ocean/dark.css",
+  "radius": "0.75rem",
+  "fontSans": ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+  "fontMono": ["JetBrains Mono", "ui-monospace", "monospace"]
+}

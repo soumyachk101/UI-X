@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "stats",
+  "type": "registry:block",
+  "title": "Stats",
+  "description": "Statistics cards grid with numbers, labels, and trend indicators.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["badge"],
+  "files": [
+    { "path": "blocks/stats/stats.tsx", "type": "registry:block" },
+    { "path": "blocks/stats/stats-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["dashboard", "data", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

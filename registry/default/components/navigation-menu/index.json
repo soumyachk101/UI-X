@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "navigation-menu",
+  "type": "registry:ui",
+  "title": "Navigation Menu",
+  "description": "Horizontal navigation menu with dropdown support.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-navigation-menu", "lucide-react"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/navigation-menu.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["navigation"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+}

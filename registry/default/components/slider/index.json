@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "slider",
+  "type": "registry:ui",
+  "title": "Slider",
+  "description": "Single or range slider with keyboard support.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-slider"],
+  "registryDependencies": [],
+  "files": [{ "path": "components/ui/slider.tsx", "type": "registry:ui" }],
+  "tags": ["form", "interactive"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

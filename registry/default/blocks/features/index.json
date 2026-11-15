@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "features",
+  "type": "registry:block",
+  "title": "Features",
+  "description": "Feature grid section with icons, badges, and optional CTA.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["badge", "button"],
+  "files": [
+    { "path": "blocks/features/features.tsx", "type": "registry:block" },
+    { "path": "blocks/features/features-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["marketing", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

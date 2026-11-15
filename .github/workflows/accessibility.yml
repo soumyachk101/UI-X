@@ -1,0 +1,20 @@
+name: Accessibility
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  a11y:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: pnpm/action-setup@fe03b94eaf0214406914dbc90713538f150f830e
+      - uses: actions/setup-node@1d0f469a1153312dd84a79db3743260b85f11789
+        with:
+          node-version: 20
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test:accessibility

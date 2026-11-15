@@ -1,0 +1,528 @@
+{
+  "version": "0.1.0",
+  "lastUpdated": "2026-11-15T00:00:00Z",
+  "items": {
+    "button": {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Accessible button with variants and sizes.",
+      "version": "0.1.0",
+      "dependencies": ["class-variance-authority", "@radix-ui/react-slot"],
+      "registryDependencies": ["utils"],
+      "files": [{ "path": "components/ui/button.tsx", "type": "registry:ui" }],
+      "tags": ["form", "interactive", "foundation"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["tailwind-merge", "clsx"] }
+    },
+    "input": {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Accessible text input component.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/input.tsx", "type": "registry:ui" }],
+      "tags": ["form", "foundation"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "textarea": {
+      "name": "textarea",
+      "type": "registry:ui",
+      "title": "Textarea",
+      "description": "Multi-line text input.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/textarea.tsx", "type": "registry:ui" }],
+      "tags": ["form", "foundation"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "label": {
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "description": "Accessible label for form inputs.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-label"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/label.tsx", "type": "registry:ui" }],
+      "tags": ["form", "foundation"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "checkbox": {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "Two-state checkbox with keyboard support.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-checkbox", "lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/checkbox.tsx", "type": "registry:ui" }],
+      "tags": ["form", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "radio-group": {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "title": "Radio Group",
+      "description": "Single-select radio with arrow-key navigation.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-radio-group", "lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/radio-group.tsx", "type": "registry:ui" }],
+      "tags": ["form", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "switch": {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "Toggle switch with keyboard support.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-switch"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/switch.tsx", "type": "registry:ui" }],
+      "tags": ["form", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "select": {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "Dropdown select with search and grouping.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-select", "lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/select.tsx", "type": "registry:ui" }],
+      "tags": ["form", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "slider": {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "Single or range slider with keyboard support.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-slider"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/slider.tsx", "type": "registry:ui" }],
+      "tags": ["form", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "badge": {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Status badge with multiple variants.",
+      "version": "0.1.0",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/badge.tsx", "type": "registry:ui" }],
+      "tags": ["display", "status"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "avatar": {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "User avatar with image fallback support.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/avatar.tsx", "type": "registry:ui" }],
+      "tags": ["display", "user"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "skeleton": {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Loading placeholder with pulse animation.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/skeleton.tsx", "type": "registry:ui" }],
+      "tags": ["feedback", "loading"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "alert": {
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "description": "Display alert messages with icon, title, and description.",
+      "version": "0.1.0",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/alert.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["feedback", "foundation"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "collapsible": {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "title": "Collapsible",
+      "description": "Collapsible content section with trigger and animation.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-collapsible"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/collapsible.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["layout", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "progress": {
+      "name": "progress",
+      "type": "registry:ui",
+      "title": "Progress",
+      "description": "Progress bar indicator showing completion status.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-progress"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/progress.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["feedback", "foundation"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "command": {
+      "name": "command",
+      "type": "registry:ui",
+      "title": "Command",
+      "description": "Command menu with search input and selectable items.",
+      "version": "0.1.0",
+      "dependencies": ["cmdk"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/command.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["navigation", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "toast": {
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "description": "Simple toast notification with provider and hook pattern.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/toast.tsx", "type": "registry:ui" },
+        { "path": "components/ui/use-toast.ts", "type": "registry:ui" }
+      ],
+      "tags": ["feedback"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "sonner": {
+      "name": "sonner",
+      "type": "registry:ui",
+      "title": "Sonner",
+      "description": "Sonner-style toast notifications using the sonner package.",
+      "version": "0.1.0",
+      "dependencies": ["sonner"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/sonner.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["feedback"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "empty-state": {
+      "name": "empty-state",
+      "type": "registry:ui",
+      "title": "Empty State",
+      "description": "Empty state display with icon, title, description, and optional action.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/empty-state.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["display", "foundation"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "table": {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "HTML table component with data and columns props.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/table.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["display", "data"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "calendar": {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "Calendar grid with month navigation using @radix-ui/react-popover.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-popover", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/calendar.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["navigation", "date"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "date-picker": {
+      "name": "date-picker",
+      "type": "registry:ui",
+      "title": "Date Picker",
+      "description": "Date picker combining calendar and input field.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-popover", "lucide-react"],
+      "registryDependencies": ["calendar"],
+      "files": [
+        { "path": "components/ui/date-picker.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["form", "navigation", "date"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "navigation-menu": {
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "title": "Navigation Menu",
+      "description": "Horizontal navigation menu with dropdown support.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-navigation-menu", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/navigation-menu.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["navigation"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "breadcrumb": {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "Breadcrumb navigation showing current page path.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/breadcrumb.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["navigation"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "pagination": {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "Pagination controls with prev/next and page numbers.",
+      "version": "0.1.0",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/pagination.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["navigation"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "hero": {
+      "name": "hero",
+      "type": "registry:block",
+      "title": "Hero",
+      "description": "Marketing hero section with headline, subheadline, and CTA buttons.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["button"],
+      "files": [
+        { "path": "blocks/hero/hero.tsx", "type": "registry:block" },
+        { "path": "blocks/hero/hero-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["marketing", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "features": {
+      "name": "features",
+      "type": "registry:block",
+      "title": "Features",
+      "description": "Feature grid section with icons, badges, and optional CTA.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["badge", "button"],
+      "files": [
+        { "path": "blocks/features/features.tsx", "type": "registry:block" },
+        { "path": "blocks/features/features-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["marketing", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "pricing": {
+      "name": "pricing",
+      "type": "registry:block",
+      "title": "Pricing",
+      "description": "Three-tier pricing cards with feature lists and CTA buttons.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["button", "badge"],
+      "files": [
+        { "path": "blocks/pricing/pricing.tsx", "type": "registry:block" },
+        { "path": "blocks/pricing/pricing-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["marketing", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "sidebar": {
+      "name": "sidebar",
+      "type": "registry:block",
+      "title": "Sidebar",
+      "description": "Dashboard sidebar with logo, navigation items, and user section.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["utils"],
+      "files": [
+        { "path": "blocks/sidebar/sidebar.tsx", "type": "registry:block" },
+        { "path": "blocks/sidebar/sidebar-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["dashboard", "navigation", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "stats": {
+      "name": "stats",
+      "type": "registry:block",
+      "title": "Stats",
+      "description": "Statistics cards grid with numbers, labels, and trend indicators.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["badge"],
+      "files": [
+        { "path": "blocks/stats/stats.tsx", "type": "registry:block" },
+        { "path": "blocks/stats/stats-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["dashboard", "data", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "utils": {
+      "name": "utils",
+      "type": "registry:lib",
+      "description": "Shared utility functions including cn() for className merging.",
+      "version": "0.1.0",
+      "dependencies": ["clsx", "tailwind-merge"],
+      "registryDependencies": [],
+      "files": [{ "path": "lib/utils.ts", "type": "registry:lib" }],
+      "tags": ["utility"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": false, "requires": [] }
+    },
+    "table": {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "HTML table component with data and columns support.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/table.tsx", "type": "registry:ui" }],
+      "tags": ["display", "data"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "calendar": {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "Calendar grid with month navigation using a popover.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-popover", "lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/calendar.tsx", "type": "registry:ui" }],
+      "tags": ["form", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "date-picker": {
+      "name": "date-picker",
+      "type": "registry:ui",
+      "title": "Date Picker",
+      "description": "Date picker combining calendar and input.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-popover", "lucide-react"],
+      "registryDependencies": ["calendar"],
+      "files": [{ "path": "components/ui/date-picker.tsx", "type": "registry:ui" }],
+      "tags": ["form", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "navigation-menu": {
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "title": "Navigation Menu",
+      "description": "Horizontal navigation menu with dropdown support.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-navigation-menu", "lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/navigation-menu.tsx", "type": "registry:ui" }],
+      "tags": ["navigation", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "breadcrumb": {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "Breadcrumb navigation using semantic nav and list markup.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/breadcrumb.tsx", "type": "registry:ui" }],
+      "tags": ["navigation", "foundation"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "pagination": {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "Pagination controls with prev/next and page numbers.",
+      "version": "0.1.0",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/pagination.tsx", "type": "registry:ui" }],
+      "tags": ["navigation", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    }
+  }
+}

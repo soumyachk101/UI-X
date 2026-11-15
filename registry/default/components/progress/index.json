@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "progress",
+  "type": "registry:ui",
+  "title": "Progress",
+  "description": "Progress bar indicator showing completion status.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-progress"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/progress.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["feedback", "foundation"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}
