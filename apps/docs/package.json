@@ -18,7 +18,7 @@
     "@next/mdx": "^14.2.0",
     "next-themes": "^0.4.0",
     "fumadocs-ui": "^14.0.0",
-    "fumadocs-core": "^14.0.0",
+    "fumadocs-core": "^16.19.0",
     "fumadocs-mdx": "^14.0.0",
     "@ui-x/tokens": "workspace:*",
     "@ui-x/registry": "workspace:*"
