@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "drawer",
+  "type": "registry:ui",
+  "title": "Drawer",
+  "description": "Bottom drawer for mobile with swipe gesture support.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-dialog"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/drawer.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["overlay", "mobile"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

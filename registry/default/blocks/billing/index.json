@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "billing",
+  "type": "registry:block",
+  "title": "Billing",
+  "description": "Billing page with current plan, payment method, and invoice history table.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["badge", "button"],
+  "files": [
+    { "path": "blocks/billing/billing.tsx", "type": "registry:block" },
+    { "path": "blocks/billing/billing-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["saas", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

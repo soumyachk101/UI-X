@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "team-management",
+  "type": "registry:block",
+  "title": "Team Management",
+  "description": "Team members list with avatars, roles, and remove buttons.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["avatar", "button", "badge"],
+  "files": [
+    { "path": "blocks/team-management/team-management.tsx", "type": "registry:block" },
+    { "path": "blocks/team-management/team-management-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["saas", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "testimonials",
+  "type": "registry:block",
+  "title": "Testimonials",
+  "description": "Testimonial cards grid with quote, author name, role, and avatar placeholder.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["avatar", "badge"],
+  "files": [
+    { "path": "blocks/testimonials/testimonials.tsx", "type": "registry:block" },
+    { "path": "blocks/testimonials/testimonials-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["marketing", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

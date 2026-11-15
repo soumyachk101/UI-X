@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "multi-select",
+  "type": "registry:ui",
+  "title": "Multi Select",
+  "description": "Multi-value select with removable chips and search support.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-popover", "lucide-react"],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "components/ui/multi-select.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "tags": ["form", "advanced"],
+  "license": "MIT",
+  "meta": {
+    "rsc": false,
+    "tsx": true,
+    "tailwind": true,
+    "cssVars": true,
+    "requires": ["lucide-react"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "rich-text-editor",
+  "type": "registry:ui",
+  "title": "Rich Text Editor",
+  "description": "Contenteditable toolbar editor with bold, italic, underline, and list support.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "components/ui/rich-text-editor.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "tags": ["content", "advanced"],
+  "license": "MIT",
+  "meta": {
+    "rsc": false,
+    "tsx": true,
+    "tailwind": true,
+    "cssVars": true,
+    "requires": []
+  }
+}

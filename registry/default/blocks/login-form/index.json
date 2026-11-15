@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "login-form",
+  "type": "registry:block",
+  "title": "Login Form",
+  "description": "Login form with email, password, submit button, forgot password and sign up links.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["input", "button", "label"],
+  "files": [
+    { "path": "blocks/login-form/login-form.tsx", "type": "registry:block" },
+    { "path": "blocks/login-form/login-form-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["authentication", "form"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

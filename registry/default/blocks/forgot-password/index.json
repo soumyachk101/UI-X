@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "forgot-password",
+  "type": "registry:block",
+  "title": "Forgot Password",
+  "description": "Forgot password form with email input, submit button, and back to login link.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["input", "button"],
+  "files": [
+    { "path": "blocks/forgot-password/forgot-password.tsx", "type": "registry:block" },
+    { "path": "blocks/forgot-password/forgot-password-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["authentication", "form"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

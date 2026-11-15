@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "footer",
+  "type": "registry:block",
+  "title": "Footer",
+  "description": "Site footer with logo, link columns (Product, Company, Legal), copyright, and social icons.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    { "path": "blocks/footer/footer.tsx", "type": "registry:block" },
+    { "path": "blocks/footer/footer-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["marketing", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

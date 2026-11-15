@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "product-card",
+  "type": "registry:block",
+  "title": "Product Card",
+  "description": "Product card with image placeholder, name, price, Add to cart button, and sale/new badge.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["button", "badge"],
+  "files": [
+    { "path": "blocks/product-card/product-card.tsx", "type": "registry:block" },
+    { "path": "blocks/product-card/product-card-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["commerce", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

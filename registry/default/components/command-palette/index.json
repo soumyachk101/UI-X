@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "command-palette",
+  "type": "registry:ui",
+  "title": "Command Palette",
+  "description": "Cmd+K search palette modal with search input and grouped results.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-dialog", "lucide-react"],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "components/ui/command-palette.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "tags": ["navigation", "advanced"],
+  "license": "MIT",
+  "meta": {
+    "rsc": false,
+    "tsx": true,
+    "tailwind": true,
+    "cssVars": true,
+    "requires": ["lucide-react"]
+  }
+}

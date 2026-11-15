@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "checkout-form",
+  "type": "registry:block",
+  "title": "Checkout Form",
+  "description": "Checkout form with shipping info fields and order summary sidebar.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["input", "button"],
+  "files": [
+    { "path": "blocks/checkout-form/checkout-form.tsx", "type": "registry:block" },
+    { "path": "blocks/checkout-form/checkout-form-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["commerce", "form"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

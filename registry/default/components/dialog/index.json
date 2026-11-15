@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "title": "Dialog",
+  "description": "Modal dialog with overlay, header, title, description, and close button.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-dialog", "lucide-react"],
+  "registryDependencies": ["button"],
+  "files": [
+    { "path": "components/ui/dialog.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["overlay", "modal"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+}

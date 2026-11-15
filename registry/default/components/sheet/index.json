@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "sheet",
+  "type": "registry:ui",
+  "title": "Sheet",
+  "description": "Slide-out panel from right, left, top, or bottom.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-dialog", "lucide-react"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/sheet.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["overlay", "panel"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+}

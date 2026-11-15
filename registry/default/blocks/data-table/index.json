@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "data-table",
+  "type": "registry:block",
+  "title": "Data Table",
+  "description": "Data table block with sortable headers, rows, and pagination placeholder.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["badge", "button"],
+  "files": [
+    { "path": "blocks/data-table/data-table.tsx", "type": "registry:block" },
+    { "path": "blocks/data-table/data-table-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["dashboard", "data", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

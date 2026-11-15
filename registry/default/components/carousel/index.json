@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "carousel",
+  "type": "registry:ui",
+  "title": "Carousel",
+  "description": "Image/content carousel with left/right arrows and dot indicators.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "components/ui/carousel.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "tags": ["data", "media"],
+  "license": "MIT",
+  "meta": {
+    "rsc": false,
+    "tsx": true,
+    "tailwind": true,
+    "cssVars": true,
+    "requires": []
+  }
+}

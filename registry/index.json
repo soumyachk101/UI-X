@@ -446,18 +446,245 @@
       "license": "MIT",
       "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": false, "requires": [] }
     },
-    "table": {
-      "name": "table",
-      "type": "registry:ui",
-      "title": "Table",
-      "description": "HTML table component with data and columns support.",
+    "testimonials": {
+      "name": "testimonials",
+      "type": "registry:block",
+      "title": "Testimonials",
+      "description": "Testimonial cards grid with quote, author name, role, and avatar placeholder.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["avatar", "badge"],
+      "files": [
+        { "path": "blocks/testimonials/testimonials.tsx", "type": "registry:block" },
+        { "path": "blocks/testimonials/testimonials-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["marketing", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "cta": {
+      "name": "cta",
+      "type": "registry:block",
+      "title": "CTA",
+      "description": "Call-to-action section with headline, description, and primary and secondary buttons.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["button"],
+      "files": [
+        { "path": "blocks/cta/cta.tsx", "type": "registry:block" },
+        { "path": "blocks/cta/cta-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["marketing", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "footer": {
+      "name": "footer",
+      "type": "registry:block",
+      "title": "Footer",
+      "description": "Site footer with logo, link columns, copyright, and social icons.",
       "version": "0.1.0",
       "dependencies": [],
       "registryDependencies": [],
-      "files": [{ "path": "components/ui/table.tsx", "type": "registry:ui" }],
-      "tags": ["display", "data"],
+      "files": [
+        { "path": "blocks/footer/footer.tsx", "type": "registry:block" },
+        { "path": "blocks/footer/footer-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["marketing", "layout"],
       "license": "MIT",
       "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "login-form": {
+      "name": "login-form",
+      "type": "registry:block",
+      "title": "Login Form",
+      "description": "Login form with email, password, submit button, forgot password and sign up links.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["input", "button", "label"],
+      "files": [
+        { "path": "blocks/login-form/login-form.tsx", "type": "registry:block" },
+        { "path": "blocks/login-form/login-form-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["authentication", "form"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "signup-form": {
+      "name": "signup-form",
+      "type": "registry:block",
+      "title": "Signup Form",
+      "description": "Signup form with name, email, password, confirm password, and submit button.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["input", "button", "label"],
+      "files": [
+        { "path": "blocks/signup-form/signup-form.tsx", "type": "registry:block" },
+        { "path": "blocks/signup-form/signup-form-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["authentication", "form"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "forgot-password": {
+      "name": "forgot-password",
+      "type": "registry:block",
+      "title": "Forgot Password",
+      "description": "Forgot password form with email input, submit button, and back to login link.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["input", "button"],
+      "files": [
+        { "path": "blocks/forgot-password/forgot-password.tsx", "type": "registry:block" },
+        { "path": "blocks/forgot-password/forgot-password-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["authentication", "form"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "analytics": {
+      "name": "analytics",
+      "type": "registry:block",
+      "title": "Analytics",
+      "description": "Analytics dashboard section with 4 stat cards and a bar chart placeholder.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["badge"],
+      "files": [
+        { "path": "blocks/analytics/analytics.tsx", "type": "registry:block" },
+        { "path": "blocks/analytics/analytics-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["dashboard", "data", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "stat-card": {
+      "name": "stat-card",
+      "type": "registry:block",
+      "title": "Stat Card",
+      "description": "Single stat card with number, label, and trend indicator (up/down arrow plus percentage).",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["badge"],
+      "files": [
+        { "path": "blocks/stat-card/stat-card.tsx", "type": "registry:block" },
+        { "path": "blocks/stat-card/stat-card-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["dashboard", "data", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "data-table": {
+      "name": "data-table",
+      "type": "registry:block",
+      "title": "Data Table",
+      "description": "Data table block with sortable headers, rows, and pagination placeholder.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["badge", "button"],
+      "files": [
+        { "path": "blocks/data-table/data-table.tsx", "type": "registry:block" },
+        { "path": "blocks/data-table/data-table-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["dashboard", "data", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "product-card": {
+      "name": "product-card",
+      "type": "registry:block",
+      "title": "Product Card",
+      "description": "Product card with image placeholder, name, price, Add to cart button, and sale/new badge.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["button", "badge"],
+      "files": [
+        { "path": "blocks/product-card/product-card.tsx", "type": "registry:block" },
+        { "path": "blocks/product-card/product-card-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["commerce", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "checkout-form": {
+      "name": "checkout-form",
+      "type": "registry:block",
+      "title": "Checkout Form",
+      "description": "Checkout form with shipping info fields and order summary sidebar.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["input", "button"],
+      "files": [
+        { "path": "blocks/checkout-form/checkout-form.tsx", "type": "registry:block" },
+        { "path": "blocks/checkout-form/checkout-form-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["commerce", "form"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "cart": {
+      "name": "cart",
+      "type": "registry:block",
+      "title": "Cart",
+      "description": "Shopping cart with items list, quantities, remove buttons, and total.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["button", "badge"],
+      "files": [
+        { "path": "blocks/cart/cart.tsx", "type": "registry:block" },
+        { "path": "blocks/cart/cart-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["commerce", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "settings": {
+      "name": "settings",
+      "type": "registry:block",
+      "title": "Settings",
+      "description": "Settings page with tabs for Profile, Security, and Notifications.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["button", "input", "tabs", "switch"],
+      "files": [
+        { "path": "blocks/settings/settings.tsx", "type": "registry:block" },
+        { "path": "blocks/settings/settings-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["saas", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "billing": {
+      "name": "billing",
+      "type": "registry:block",
+      "title": "Billing",
+      "description": "Billing page with current plan, payment method, and invoice history table.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["badge", "button"],
+      "files": [
+        { "path": "blocks/billing/billing.tsx", "type": "registry:block" },
+        { "path": "blocks/billing/billing-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["saas", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "team-management": {
+      "name": "team-management",
+      "type": "registry:block",
+      "title": "Team Management",
+      "description": "Team members list with avatars, roles, and remove buttons.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": ["avatar", "button", "badge"],
+      "files": [
+        { "path": "blocks/team-management/team-management.tsx", "type": "registry:block" },
+        { "path": "blocks/team-management/team-management-demo.tsx", "type": "registry:block" }
+      ],
+      "tags": ["saas", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
     },
     "calendar": {
       "name": "calendar",
@@ -521,6 +748,243 @@
       "registryDependencies": [],
       "files": [{ "path": "components/ui/pagination.tsx", "type": "registry:ui" }],
       "tags": ["navigation", "interactive"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "carousel": {
+      "name": "carousel",
+      "type": "registry:ui",
+      "title": "Carousel",
+      "description": "Image/content carousel with left/right arrows and dot indicators.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/carousel.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["data", "media"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "resizable": {
+      "name": "resizable",
+      "type": "registry:ui",
+      "title": "Resizable",
+      "description": "Horizontal split panel with draggable divider using @radix-ui/react-resizable-panel.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-resizable-panel"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/resizable.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["layout", "advanced"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "combobox": {
+      "name": "combobox",
+      "type": "registry:ui",
+      "title": "Combobox",
+      "description": "Searchable select using @radix-ui/react-popover with keyboard support.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-popover", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/combobox.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["form", "advanced"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "multi-select": {
+      "name": "multi-select",
+      "type": "registry:ui",
+      "title": "Multi Select",
+      "description": "Multi-value select with removable chips and search support.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-popover", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/multi-select.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["form", "advanced"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "file-upload": {
+      "name": "file-upload",
+      "type": "registry:ui",
+      "title": "File Upload",
+      "description": "Drag-and-drop file upload area with file preview list.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/file-upload.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["form", "advanced"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "otp-input": {
+      "name": "otp-input",
+      "type": "registry:ui",
+      "title": "OTP Input",
+      "description": "One-time password input with auto-advance on digit entry.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/otp-input.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["form", "advanced"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "rich-text-editor": {
+      "name": "rich-text-editor",
+      "type": "registry:ui",
+      "title": "Rich Text Editor",
+      "description": "Contenteditable toolbar editor with bold, italic, underline, and list support.",
+      "version": "0.1.0",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/rich-text-editor.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["content", "advanced"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "command-palette": {
+      "name": "command-palette",
+      "type": "registry:ui",
+      "title": "Command Palette",
+      "description": "Cmd+K search palette modal with search input and grouped results.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-dialog", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        { "path": "components/ui/command-palette.tsx", "type": "registry:ui" }
+      ],
+      "tags": ["navigation", "advanced"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "dialog": {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "Modal dialog with overlay, header, title, description, and close button.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-dialog", "lucide-react"],
+      "registryDependencies": ["button"],
+      "files": [{ "path": "components/ui/dialog.tsx", "type": "registry:ui" }],
+      "tags": ["overlay", "modal"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "alert-dialog": {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "title": "Alert Dialog",
+      "description": "Confirm dialog for important user actions with warning message.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-alert-dialog"],
+      "registryDependencies": ["button"],
+      "files": [{ "path": "components/ui/alert-dialog.tsx", "type": "registry:ui" }],
+      "tags": ["overlay", "modal", "feedback"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "sheet": {
+      "name": "sheet",
+      "type": "registry:ui",
+      "title": "Sheet",
+      "description": "Slide-out panel from right, left, top, or bottom.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-dialog", "lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/sheet.tsx", "type": "registry:ui" }],
+      "tags": ["overlay", "panel"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "drawer": {
+      "name": "drawer",
+      "type": "registry:ui",
+      "title": "Drawer",
+      "description": "Bottom drawer for mobile with swipe gesture support.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-dialog"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/drawer.tsx", "type": "registry:ui" }],
+      "tags": ["overlay", "mobile"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "popover": {
+      "name": "popover",
+      "type": "registry:ui",
+      "title": "Popover",
+      "description": "Floating popover positioned relative to a trigger element.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-popover"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/popover.tsx", "type": "registry:ui" }],
+      "tags": ["overlay", "floating"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "tooltip": {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "Short descriptive text on hover for buttons and icons.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-tooltip"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/tooltip.tsx", "type": "registry:ui" }],
+      "tags": ["overlay", "floating", "help"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "dropdown-menu": {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown Menu",
+      "description": "Dropdown menu with items, labels, separators, and shortcuts.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-dropdown-menu", "lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/dropdown-menu.tsx", "type": "registry:ui" }],
+      "tags": ["navigation", "menu"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
+    },
+    "tabs": {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "Tabbed interface for switching between content panels.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-tabs"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/tabs.tsx", "type": "registry:ui" }],
+      "tags": ["navigation", "layout"],
+      "license": "MIT",
+      "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+    },
+    "accordion": {
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "description": "Collapsible panels with single or multiple open states.",
+      "version": "0.1.0",
+      "dependencies": ["@radix-ui/react-accordion", "lucide-react"],
+      "registryDependencies": [],
+      "files": [{ "path": "components/ui/accordion.tsx", "type": "registry:ui" }],
+      "tags": ["navigation", "layout"],
       "license": "MIT",
       "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": ["lucide-react"] }
     }

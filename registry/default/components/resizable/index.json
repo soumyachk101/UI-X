@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "resizable",
+  "type": "registry:ui",
+  "title": "Resizable",
+  "description": "Horizontal split panel with draggable divider using @radix-ui/react-resizable-panel.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-resizable-panel"],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "components/ui/resizable.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "tags": ["layout", "advanced"],
+  "license": "MIT",
+  "meta": {
+    "rsc": false,
+    "tsx": true,
+    "tailwind": true,
+    "cssVars": true,
+    "requires": []
+  }
+}

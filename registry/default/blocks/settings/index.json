@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "settings",
+  "type": "registry:block",
+  "title": "Settings",
+  "description": "Settings page with tabs for Profile, Security, and Notifications.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["button", "input", "tabs", "switch"],
+  "files": [
+    { "path": "blocks/settings/settings.tsx", "type": "registry:block" },
+    { "path": "blocks/settings/settings-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["saas", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

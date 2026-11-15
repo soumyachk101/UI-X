@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "cart",
+  "type": "registry:block",
+  "title": "Cart",
+  "description": "Shopping cart with items list, quantities, remove buttons, and total.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["button", "badge"],
+  "files": [
+    { "path": "blocks/cart/cart.tsx", "type": "registry:block" },
+    { "path": "blocks/cart/cart-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["commerce", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

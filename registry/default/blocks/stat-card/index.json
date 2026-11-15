@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "stat-card",
+  "type": "registry:block",
+  "title": "Stat Card",
+  "description": "Single stat card with number, label, and trend indicator (up/down arrow plus percentage).",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["badge"],
+  "files": [
+    { "path": "blocks/stat-card/stat-card.tsx", "type": "registry:block" },
+    { "path": "blocks/stat-card/stat-card-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["dashboard", "data", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

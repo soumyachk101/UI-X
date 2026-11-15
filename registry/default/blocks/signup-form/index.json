@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "signup-form",
+  "type": "registry:block",
+  "title": "Signup Form",
+  "description": "Signup form with name, email, password, confirm password, and submit button.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["input", "button", "label"],
+  "files": [
+    { "path": "blocks/signup-form/signup-form.tsx", "type": "registry:block" },
+    { "path": "blocks/signup-form/signup-form-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["authentication", "form"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

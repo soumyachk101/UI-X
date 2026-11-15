@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "cta",
+  "type": "registry:block",
+  "title": "CTA",
+  "description": "Call-to-action section with headline, description, primary and secondary buttons.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["button"],
+  "files": [
+    { "path": "blocks/cta/cta.tsx", "type": "registry:block" },
+    { "path": "blocks/cta/cta-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["marketing", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

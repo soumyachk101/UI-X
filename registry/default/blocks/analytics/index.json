@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "analytics",
+  "type": "registry:block",
+  "title": "Analytics",
+  "description": "Analytics dashboard section with 4 stat cards and a bar chart placeholder.",
+  "version": "0.1.0",
+  "dependencies": [],
+  "registryDependencies": ["badge"],
+  "files": [
+    { "path": "blocks/analytics/analytics.tsx", "type": "registry:block" },
+    { "path": "blocks/analytics/analytics-demo.tsx", "type": "registry:block" }
+  ],
+  "tags": ["dashboard", "data", "layout"],
+  "license": "MIT",
+  "meta": { "rsc": true, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}

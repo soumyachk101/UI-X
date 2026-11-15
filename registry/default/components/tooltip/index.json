@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui-x.dev/schema/registry-item.json",
+  "name": "tooltip",
+  "type": "registry:ui",
+  "title": "Tooltip",
+  "description": "Short descriptive text on hover for buttons and icons.",
+  "version": "0.1.0",
+  "dependencies": ["@radix-ui/react-tooltip"],
+  "registryDependencies": [],
+  "files": [
+    { "path": "components/ui/tooltip.tsx", "type": "registry:ui" }
+  ],
+  "tags": ["overlay", "floating", "help"],
+  "license": "MIT",
+  "meta": { "rsc": false, "tsx": true, "tailwind": true, "cssVars": true, "requires": [] }
+}
