@@ -10,7 +10,7 @@ jobs:
   a11y:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: pnpm/action-setup@fe03b94eaf0214406914dbc90713538f150f830e
       - uses: actions/setup-node@1d0f469a1153312dd84a79db3743260b85f11789
         with:
