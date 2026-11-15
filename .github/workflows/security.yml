@@ -10,7 +10,7 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: pnpm/action-setup@fe03b94eaf0214406914dbc90713538f150f830e
       - uses: actions/setup-node@1d0f469a1153312dd84a79db3743260b85f11789
         with:
@@ -22,5 +22,5 @@ jobs:
   secret-scan:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: gitleaks/gitleaks-action@cc79bf47c1f2d6d35216f7c11a7c56e9a329feef # v2.3.0
